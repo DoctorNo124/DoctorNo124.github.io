@@ -924,38 +924,6 @@ var bingoList = {
         },
         {
             "difficulty": 12,
-            "id": "defeat-nabooru-knuckle",
-            "jp": "アイアンナック(ナボール)撃破",
-            "name": "Defeat Nabooru-Knuckle",
-            "rowtypes": {
-                "bottle": 0.5,
-                "gclw": 0.0,
-                "hookshot": 100.0,
-                "ms": 100.0
-            },
-            "skill": 1.0,
-            "subtypes": {
-                "bosskey": 6.0,
-                "bosskey2": 6.0,
-                "compass": 1.0,
-                "hearts4": 0.25,
-                "hovers": 1.0,
-                "map": 3.0,
-                "poachers": 0.25,
-                "skulls": 0.5,
-                "songs5": 0.75
-            },
-            "time": 9.0,
-            "types": {
-                "endon": -0.5,
-                "fortress": 2.5,
-                "incspboss": 100.0,
-                "selfsynergy": 0.0,
-                "spirit": 8.0
-            }
-        },
-        {
-            "difficulty": 12,
             "id": "open-the-final-door-of-forest-trial",
             "jp": "森の結界の最後の部屋に到達",
             "name": "Open the Final Door of Forest Trial",
