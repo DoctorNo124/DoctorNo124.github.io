@@ -3,28 +3,6 @@ var bingoList = {
     "1": [
         {
             "difficulty": 1,
-            "id": "bomb-bag-30-",
-            "jp": "ボム袋(30)",
-            "name": "Bomb Bag (30)",
-            "skill": 0.1,
-            "subtypes": {
-                "bbprize": 100.0,
-                "bombs": 2.35,
-                "bosskey": 2.5,
-                "dc": 1.0,
-                "silverrupee": 2.5,
-                "skulls": 0.25,
-                "sot": -3.05
-            },
-            "time": 4.65,
-            "types": {
-                "bombbag": 100.0,
-                "fortress": 2.55,
-                "selfsynergy": 0.0
-            }
-        },
-        {
-            "difficulty": 1,
             "id": "exactly-20-deku-sticks",
             "jp": "デクの棒20本",
             "name": "Exactly 20 Deku Sticks",
@@ -422,6 +400,9 @@ var bingoList = {
             "time": 8.5,
             "types": {
                 "bosskey": 6.75,
+                "fortress": 2.55,
+                "ganon": 5.0,
+                "gtg": 1.0,
                 "incbk": 100.0,
                 "selfsynergy": -2.0
             }
@@ -925,25 +906,6 @@ var bingoList = {
     "15": [
         {
             "difficulty": 15,
-            "id": "blue-potion",
-            "jp": "青いクスリ",
-            "name": "Blue Potion",
-            "skill": 0.25,
-            "subtypes": {
-                "bosskey": 2.5,
-                "hearts3": 1.5,
-                "silverrupee": 2.5,
-                "skulls": 0.25
-            },
-            "time": 11.55,
-            "types": {
-                "fortress": 2.55,
-                "selfsynergy": 0.0,
-                "sot": 5.1
-            }
-        },
-        {
-            "difficulty": 15,
             "id": "double-magic",
             "jp": "魔力2倍",
             "name": "Double Magic",
@@ -1005,9 +967,13 @@ var bingoList = {
             "types": {
                 "bossdoor": 5.0,
                 "bosskey": 6.75,
+                "fortress": 2.55,
+                "ganon": 5.0,
+                "gtg": 1.0,
                 "incbk": 100.0,
                 "incbkdoor": 100.0,
-                "selfsynergy": -2.0
+                "selfsynergy": -2.0,
+                "water": 4.5
             }
         },
         {
@@ -1213,7 +1179,7 @@ var bingoList = {
                 "compass": 4.0,
                 "hearts3": 0.5,
                 "map": 2.0,
-                "skulls": 1.0
+                "skulls": 1.5
             },
             "time": 13.7,
             "types": {
@@ -1287,23 +1253,6 @@ var bingoList = {
                 "incskulls": 100.0,
                 "selfsynergy": -2.0,
                 "skulls": 8.0
-            }
-        },
-        {
-            "difficulty": 19,
-            "id": "7-hearts-no-duping-",
-            "jp": "ハート7つ",
-            "name": "7 Hearts (no duping)",
-            "skill": 0.4,
-            "subtypes": {
-                "skulls": 0.5
-            },
-            "time": 14.5,
-            "types": {
-                "hearts3": 10.0,
-                "hearts4": 0.5,
-                "inchearts": 100.0,
-                "selfsynergy": -3.0
             }
         },
         {
@@ -1385,6 +1334,23 @@ var bingoList = {
         }
     ],
     "20": [
+        {
+            "difficulty": 20,
+            "id": "7-hearts-no-duping-",
+            "jp": "ハート7つ",
+            "name": "7 Hearts (no duping)",
+            "skill": 0.5,
+            "subtypes": {
+                "skulls": 0.5
+            },
+            "time": 14.85,
+            "types": {
+                "hearts3": 10.0,
+                "hearts4": 0.5,
+                "inchearts": 100.0,
+                "selfsynergy": -3.0
+            }
+        },
         {
             "difficulty": 20,
             "id": "fire-temple-boss-key",
@@ -1513,7 +1479,7 @@ var bingoList = {
                 "hearts3": 2.0,
                 "hearts4": 1.0,
                 "map": 2.0,
-                "skulls": 1.0
+                "skulls": 1.5
             },
             "time": 15.8,
             "types": {
@@ -1730,6 +1696,10 @@ var bingoList = {
             "types": {
                 "bosskey": 12.0,
                 "deku": 1.4,
+                "forest": 6.0,
+                "fortress": 2.55,
+                "ganon": 5.0,
+                "gtg": 1.0,
                 "incbk": 100.0,
                 "selfsynergy": -2.0,
                 "slingshot": 1.0
@@ -1756,6 +1726,23 @@ var bingoList = {
                 "incsilvers": 100.0,
                 "selfsynergy": -3.0,
                 "silverrupee": 14.0
+            }
+        },
+        {
+            "difficulty": 23,
+            "id": "8-hearts-no-duping-",
+            "jp": "ハート8つ(複製禁止)",
+            "name": "8 Hearts (no duping)",
+            "skill": 0.65,
+            "subtypes": {
+                "skulls": 0.75
+            },
+            "time": 17.3,
+            "types": {
+                "hearts3": 13.0,
+                "hearts4": 2.0,
+                "inchearts": 100.0,
+                "selfsynergy": -3.0
             }
         },
         {
@@ -1926,19 +1913,21 @@ var bingoList = {
         },
         {
             "difficulty": 25,
-            "id": "8-hearts-no-duping-",
-            "jp": "ハート8つ(複製禁止)",
-            "name": "8 Hearts (no duping)",
-            "skill": 0.65,
+            "id": "blue-potion",
+            "jp": "青いクスリ",
+            "name": "Blue Potion",
+            "skill": 0.25,
             "subtypes": {
-                "skulls": 0.75
+                "bosskey": 2.5,
+                "hearts3": 1.5,
+                "silverrupee": 2.5
             },
-            "time": 18.9,
+            "time": 18.55,
             "types": {
-                "hearts3": 13.0,
-                "hearts4": 2.0,
-                "inchearts": 100.0,
-                "selfsynergy": -3.0
+                "fortress": 2.55,
+                "selfsynergy": 0.0,
+                "skulls": 6.0,
+                "sot": 5.1
             }
         }
     ],
@@ -2107,6 +2096,23 @@ var bingoList = {
                 "spirit": 4.0,
                 "water": 1.15
             }
+        },
+        {
+            "difficulty": 28,
+            "id": "9-hearts-no-duping-",
+            "jp": "ハート9つ(複製禁止)",
+            "name": "9 Hearts (no duping)",
+            "skill": 0.65,
+            "subtypes": {
+                "skulls": 1.0
+            },
+            "time": 20.75,
+            "types": {
+                "hearts3": 16.0,
+                "hearts4": 3.0,
+                "inchearts": 100.0,
+                "selfsynergy": -3.0
+            }
         }
     ],
     "29": [
@@ -2245,10 +2251,15 @@ var bingoList = {
                 "bossdoor": 5.0,
                 "bosskey": 12.0,
                 "deku": 1.4,
+                "forest": 6.0,
+                "fortress": 2.55,
+                "ganon": 5.0,
+                "gtg": 1.0,
                 "incbk": 100.0,
                 "incbkdoor": 100.0,
                 "selfsynergy": -2.0,
-                "slingshot": 1.0
+                "slingshot": 1.0,
+                "water": 4.5
             }
         },
         {
@@ -2275,23 +2286,6 @@ var bingoList = {
                 "gtg": 5.0,
                 "incgolds": 100.0,
                 "selfsynergy": -2.0
-            }
-        },
-        {
-            "difficulty": 30,
-            "id": "9-hearts-no-duping-",
-            "jp": "ハート9つ(複製禁止)",
-            "name": "9 Hearts (no duping)",
-            "skill": 0.65,
-            "subtypes": {
-                "skulls": 1.0
-            },
-            "time": 22.3,
-            "types": {
-                "hearts3": 16.0,
-                "hearts4": 3.0,
-                "inchearts": 100.0,
-                "selfsynergy": -3.0
             }
         }
     ],
@@ -2627,7 +2621,6 @@ var bingoList = {
             "subtypes": {
                 "boomerang": 2.6,
                 "bossdoor": 2.0,
-                "bosskey": 1.0,
                 "compass": 2.0,
                 "fountain": 2.0,
                 "hearts3": 0.5,
@@ -2650,7 +2643,64 @@ var bingoList = {
     "46": [],
     "47": [],
     "48": [],
-    "49": [],
+    "49": [
+        {
+            "difficulty": 49,
+            "id": "3-swords-3-boots",
+            "jp": "剣3種、靴3種",
+            "name": "3 Swords & 3 Boots",
+            "skill": 0.25,
+            "subtypes": {
+                "compass": 2.5,
+                "hearts3": 1.0,
+                "hearts4": 0.25,
+                "map": 2.0,
+                "silverrupee": 2.0,
+                "skulls": 1.25,
+                "suns": 2.0
+            },
+            "time": 39.75,
+            "types": {
+                "fountain": 2.0,
+                "ice": 5.0,
+                "incboot": 100.0,
+                "incsword": 100.0,
+                "maskquest": 10.0,
+                "selfsynergy": 0.0,
+                "shadow": 1.5,
+                "sot": 5.1,
+                "zl": 6.5
+            }
+        },
+        {
+            "difficulty": 49,
+            "id": "3-swords-3-shields",
+            "jp": "剣3種、盾3種",
+            "name": "3 Swords & 3 Shields",
+            "skill": 0.85,
+            "subtypes": {
+                "bosskey": 2.5,
+                "compass": 1.0,
+                "hearts3": 1.0,
+                "hearts4": 0.5,
+                "map": 2.0,
+                "silverrupee": 3.5,
+                "skulls": 0.25,
+                "suns": 2.0
+            },
+            "time": 38.75,
+            "types": {
+                "fortress": 2.55,
+                "incshield": 100.0,
+                "incsword": 100.0,
+                "maskquest": 10.0,
+                "selfsynergy": 0.0,
+                "sot": 5.1,
+                "spirit": 2.15,
+                "zl": 6.5
+            }
+        }
+    ],
     "5": [
         {
             "difficulty": 5,
@@ -2767,6 +2817,7 @@ var bingoList = {
             "name": "Defeat Queen Gohma",
             "skill": 0.0,
             "subtypes": {
+                "bottlecontents": 2.0,
                 "compass": 1.5,
                 "ganon": 3.5,
                 "hearts3": 3.0,
@@ -2822,65 +2873,30 @@ var bingoList = {
             }
         }
     ],
-    "50": [
+    "50": [],
+    "6": [
         {
-            "difficulty": 50,
-            "id": "3-swords-3-boots",
-            "jp": "剣3種、靴3種",
-            "name": "3 Swords & 3 Boots",
-            "skill": 0.25,
+            "difficulty": 6,
+            "id": "bomb-bag-30-",
+            "jp": "ボム袋(30)",
+            "name": "Bomb Bag (30)",
+            "skill": 0.1,
             "subtypes": {
-                "compass": 2.5,
-                "hearts3": 1.0,
-                "hearts4": 0.25,
-                "map": 2.0,
-                "silverrupee": 2.0,
-                "skulls": 1.25,
-                "suns": 2.0
+                "bbprize": 100.0,
+                "bombs": 2.35,
+                "bosskey": 2.5,
+                "dc": 1.0,
+                "silverrupee": 2.5,
+                "skulls": 0.25,
+                "sot": -3.05
             },
-            "time": 39.75,
+            "time": 4.65,
             "types": {
-                "fountain": 2.0,
-                "ice": 5.0,
-                "incboot": 100.0,
-                "incsword": 100.0,
-                "maskquest": 10.0,
-                "selfsynergy": 0.0,
-                "shadow": 1.5,
-                "sot": 5.1,
-                "zl": 6.5
+                "bombbag": 100.0,
+                "fortress": 2.55,
+                "selfsynergy": 0.0
             }
         },
-        {
-            "difficulty": 50,
-            "id": "3-swords-3-shields",
-            "jp": "剣3種、盾3種",
-            "name": "3 Swords & 3 Shields",
-            "skill": 0.85,
-            "subtypes": {
-                "bosskey": 2.5,
-                "compass": 1.0,
-                "hearts3": 1.0,
-                "hearts4": 0.5,
-                "map": 2.0,
-                "silverrupee": 3.5,
-                "skulls": 0.25,
-                "suns": 2.0
-            },
-            "time": 38.75,
-            "types": {
-                "fortress": 2.55,
-                "incshield": 100.0,
-                "incsword": 100.0,
-                "maskquest": 10.0,
-                "selfsynergy": 0.0,
-                "sot": 5.1,
-                "spirit": 2.15,
-                "zl": 6.5
-            }
-        }
-    ],
-    "6": [
         {
             "difficulty": 6,
             "id": "blue-fire",
@@ -2889,10 +2905,12 @@ var bingoList = {
             "skill": 0.1,
             "subtypes": {
                 "bosskey": 4.0,
+                "bottlecontents": 5.0,
                 "compass": 3.0,
                 "ganon": 2.25,
                 "hearts3": 2.0,
                 "hearts4": 0.5,
+                "ice": 2.25,
                 "map": 2.0,
                 "silverrupee": 2.0,
                 "skulls": 0.75
@@ -2900,7 +2918,6 @@ var bingoList = {
             "time": 4.4,
             "types": {
                 "fountain": 2.0,
-                "ice": 2.25,
                 "selfsynergy": 0.0
             }
         },
@@ -3149,11 +3166,13 @@ var bingoList = {
             "skill": 0.0,
             "subtypes": {
                 "ganon": 2.75,
+                "ice": 2.0,
                 "silverrupee": 1.0,
                 "skulls": 0.5
             },
             "time": 5.15,
             "types": {
+                "bottlecontents": 5.0,
                 "bottleslot": 4.5,
                 "selfsynergy": 0.0
             }
@@ -3205,6 +3224,7 @@ var bingoList = {
             "name": "Beat the Deku Tree",
             "skill": 0.15,
             "subtypes": {
+                "bottlecontents": 2.0,
                 "compass": 1.5,
                 "ganon": 5.0,
                 "hearts3": 3.0,
@@ -3530,7 +3550,7 @@ var bingoList = {
         }
     ],
     "info": {
-        "version": "Child v1"
+        "version": "child v1.1 beta"
     },
     "rowtypes": {
         "bottle": 2.0,
